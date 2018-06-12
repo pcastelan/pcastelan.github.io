@@ -52,7 +52,7 @@ a:link{
 .pcf-icones img{
 	width: 4em;
 	height: 4em;
-	margin:0 4em;
+	margin:0 3em;
 }
 .pcf-icones img:hover{
 	opacity:0.7;
@@ -71,7 +71,21 @@ a:link{
 .pcf-lingua a:not(.active):hover{
 	opacity:0.7;
 }
-
+.pcf-icones .row{
+	display:inline;
+	/*clear:both;*/
+}
+@media only screen and (max-width: 768px){
+	.pcf-icones img{
+		width: 4em;
+		height: 4em;
+		margin:1em 1.5em;
+	}
+	.pcf-icones .row{
+		display:block;
+		clear:both;
+	}
+}
 @media only screen and (min-width: 767px){
 	*{
 		font-size:16px;
