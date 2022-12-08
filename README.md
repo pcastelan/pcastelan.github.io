@@ -1,2 +1,2 @@
 # Personal landing page. 
-[paulacastelan.com.br](https://paulacastelan.com.br/)
+[https://bio.paula.dev.br/](https://bio.paula.dev.br/)
